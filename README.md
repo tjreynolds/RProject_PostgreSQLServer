@@ -6,7 +6,7 @@ written in R for the Statistical Computing for Biomedical Data Analysis course b
 Univeristy of San Francisco. For more information about the project, contact rmhorton on Github.
 
 Remaining tasks:
--Finish provisioning virtual machine, especially with GIS and other plugins for PostGreSQL.
+-Adapt provisioning scripts from https://github.com/nsh87/shiny
 -Design PostGreSQL database, likely with data from <https://github.com/WinVector/zmPDSwR/tree/master/PUMS/loadExample>.
 -Create interworking Python/Vagrant/Fabric scripting for automatic deployment on final server.
 
