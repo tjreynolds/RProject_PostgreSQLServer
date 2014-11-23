@@ -1,0 +1,25 @@
+#!/bin/bash
+#Autodeploying shell script for RProject_PostGreSQL server
+
+#Automatically provisions and configures a VM with PostGreSQL
+#with a separate sqladmin account.
+
+#Dependencies that must be installed manually:
+#Oracle VirtualBox
+#Vagrant, vagrantup.com
+#pip, pip.pypa.io
+
+#Place this script in the Git repo you want the VM to be set up in. Have get-pip.py in this repository also.
+
+python get-pip.py
+
+#Install paramiko and pyCrypto, and then Fabric, from the CLI.
+
+pip install paramiko
+pip install fabric
+
+#Create fabfile.py for setting up VM and installing PostGreSQL
+
+python
+
+
